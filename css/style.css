@@ -1,0 +1,105 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+body{
+    background-color:#FFFAF3;
+    background-image: url(../img/Image.png);
+    background-position: top right;
+    background-repeat: no-repeat;
+    font-family: 'Open Sans';
+}
+.container{
+    max-width: 1100px;
+    margin: auto;
+}
+header a{
+    text-decoration: none;
+        color:black;
+}
+header a:hover{
+    color: #C08D5D;
+}
+.logo {
+   margin-right: 40px;
+    display:inline-block;
+    width: 5%; 
+}
+.logo img{
+    width: 40px;
+    padding: 20px 0;
+}
+.bord{
+    border-bottom: solid 1px #C08D5D;
+    width: 40%;
+    padding-top: 20px;
+    margin-bottom: 100px;
+    }
+div ul{
+    display: inline-block;
+    width: 50%;
+    padding-top: 20px;
+    vertical-align: top;
+}
+header li{
+    display: inline-block;
+    font-size: 20px;
+    padding: 20px;
+}
+h1 {
+    color: #3F4042;
+    font-size: 70px;
+  font-family: 'Yeseva One';
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    padding: 30px 0;
+}
+h1 span {
+    font-size: 50px;
+    display: block;
+    text-transform: capitalize;
+    letter-spacing: 8px;
+}
+h1 span::after {
+    content: "";
+    background: url(../img/logo.png);
+    width: 75px;
+    height: 75px;
+    display: inline-block;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+main img{
+    width: 180px;
+}
+main p{
+width: 60%;
+padding: 20px 0;
+font-size: 18px;
+letter-spacing: 2px;
+margin-bottom: 40px;
+}
+.move_to{
+    display: inline-block;
+   text-decoration: none;
+   color: #3F4042;
+   font-size: 20px;
+   letter-spacing: 2px;
+   border: solid 3px #C08D5D;
+  padding-left: 15px;
+}
+.move_to::after{
+    content: '→';
+display: inline-block;
+    background-color: #C08D5D;
+    width: 59px;
+    height: 64px;
+    line-height: 64px;
+    text-align: center;
+    margin-left: 15px;
+}
+footer img{
+   display: block;
+   margin: auto;
+}
